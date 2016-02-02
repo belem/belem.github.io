@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type="text/xsl" href="apk-analyser-result.xsl"?>
-<apks datetime="2016-02-02 13:45:56">
+<apks datetime="2016-02-02 18:45:56">
   <apk id="com.ea.gp.starwarsbfcompanion">
     <crosswalk iscrosswalk="yes" mode="embedded" architecture="arm" webview="" chromium="yes" coreinternal="yes" cordova="yes" xwalkwebvieweg="1.4.0-dev" intelxdk="" note=""/>
     <app name="Star Wars Battlefront Companion" file="Star Wars Battlefront.apk" size="79.9MB" launchableactivity="com.ea.gp.starwarsbfcompanion.MainActivity" versioncode="322" versionname="1.0.5" sdkversion="14" targetsdkversion="22"/>
