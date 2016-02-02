@@ -3,7 +3,7 @@
 <apks datetime="2016-02-02 13:45:56">
   <apk id="com.ea.gp.starwarsbfcompanion">
     <crosswalk iscrosswalk="yes" mode="embedded" architecture="arm" webview="" chromium="yes" coreinternal="yes" cordova="yes" xwalkwebvieweg="1.4.0-dev" intelxdk="" note=""/>
-    <app name="Battlefront" file="Star Wars Battlefront.apk" size="79.9MB" launchableactivity="com.ea.gp.starwarsbfcompanion.MainActivity" versioncode="322" versionname="1.0.5" sdkversion="14" targetsdkversion="22"/>
+    <app name="Star Wars Battlefront Companion" file="Star Wars Battlefront.apk" size="79.9MB" launchableactivity="com.ea.gp.starwarsbfcompanion.MainActivity" versioncode="322" versionname="1.0.5" sdkversion="14" targetsdkversion="22"/>
     <xwalk>org/xwalk</xwalk>
     <xwalk>org/xwalk/core</xwalk>
     <xwalk>org/xwalk/core/internal</xwalk>
@@ -254,7 +254,7 @@
   </apk>
   <apk id="com.ea.fifaultimate_na">
     <crosswalk iscrosswalk="yes" mode="embedded" architecture="arm" webview="" chromium="yes" coreinternal="yes" cordova="yes" xwalkwebvieweg="1.2.0," intelxdk="" note=""/>
-    <app name="Companion" file="EA SPORTS FIFA 16 Companion_v16.2.0.155106_apkpure.com.apk" size="47.3MB" launchableactivity="com.ea.fifaultimate.FUTMobileActivity" versioncode="16202" versionname="16.2.0.155106" sdkversion="16" targetsdkversion="23"/>
+    <app name="EA SPORTS™ FIFA 16 Companion" file="FIFA 16 Companion.apk" size="47.3MB" launchableactivity="com.ea.fifaultimate.FUTMobileActivity" versioncode="16202" versionname="16.2.0.155106" sdkversion="16" targetsdkversion="23"/>
     <xwalk>org/xwalk</xwalk>
     <xwalk>org/xwalk/core</xwalk>
     <xwalk>org/xwalk/core/internal</xwalk>
