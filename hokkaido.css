@@ -421,6 +421,19 @@ body {
   animation-duration: 1s;
   animation-fill-mode: both; }
 
+.TitleEN {
+  font-size: 3rem;
+  font-weight: 200;
+  margin: 0 auto;
+  color: rgba(240, 220, 230, 0.7);
+  background: -webkit-linear-gradient(rgba(240, 220, 230, 0.7), rgba(255, 255, 255, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 30px rgba(10, 10, 10, 0.3);
+  animation-name: zoomIn;
+  animation-duration: 1s;
+  animation-fill-mode: both; }
+  
 .Description {
   font-weight: 100;
   font-size: 1rem;
