@@ -409,7 +409,7 @@ body {
       width: 1140px; } }
 
 .Title {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 300;
   margin: 0 auto;
   color: rgba(240, 220, 230, 0.7);
@@ -422,7 +422,7 @@ body {
   animation-fill-mode: both; }
 
 .TitleEN {
-  font-size: 3rem;
+  font-size: 1.8rem;
   font-weight: 200;
   margin: 0 auto;
   color: rgba(240, 220, 230, 0.7);
