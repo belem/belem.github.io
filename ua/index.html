@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8' />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+  <title>UA</title>
+  <meta name='description' content='UA' />
+  <meta name='HandheldFriendly' content='True' />
+  <meta name='viewport' content='width=device-width, initial-scale=0.8' />
+</head>
+
+<body>
+  <header></header>
+  <nav></nav>
+  <article>
+    <section id='info' class="section">
+    </section>
+  </article>
+  <aside></aside>
+  <footer class="footer">
+    &copy;2020 Belem
+  </footer>
+
+  <script src='js/ua-parser.min.js'></script>
+  <script src='js/webmark-environment.js'></script>
+  <script>
+    function getTestInfo() {
+      let info = document.querySelector('#info');
+      let webmarkenvironment = new WebMarkEnvironment();
+      let result = webmarkenvironment.result();
+      console.log(result);
+      info.innerHTML =
+        `
+        == Hardware ==
+        <br>devicevendor: ${result.hardware.devicevendor}
+        <br>devicemodel: ${result.hardware.devicemodel}
+        <br>devicetype: ${result.hardware.devicetype}
+        <br>cpuarchitecture: ${result.hardware.cpuarchitecture}
+        <br>cpuhardwareconcurrency: ${result.hardware.cpuhardwareconcurrency}
+        <br>gpuvender: ${result.hardware.gpuvender}
+        <br>gpu: ${result.hardware.gpu}
+        <br>devicememory: ${result.hardware.devicememory}
+        <br>screenwidth: ${result.hardware.screenwidth}
+        <br>screenheight: ${result.hardware.screenheight}
+        <br>screenavailablewidth: ${result.hardware.screenavailablewidth}
+        <br>screenavailableheight: ${result.hardware.screenavailableheight}
+        <br>screencolordepth: ${result.hardware.screencolordepth}
+        <br>screenpixeldepth: ${result.hardware.screenpixeldepth}
+        <br>devicepixelratio: ${result.hardware.devicepixelratio}
+        <br>
+        == Software ==
+        <br>os: ${result.software.os}
+        <br>osversion: ${result.software.osversion}
+        <br>platform: ${result.software.platform}
+        <br>timezone: ${result.software.timezone}
+        <br>
+        == Browser ==
+        <br>name: ${result.browser.name}
+        <br>version: ${result.browser.version}
+        <br>major: ${result.browser.major}
+        <br>language: ${result.browser.language}
+        <br>enginename: ${result.browser.enginename}
+        <br>engineversion: ${result.browser.engineversion}
+        <br>useragent: ${result.browser.useragent}
+        <br>
+ 
+        `
+    }
+    document.addEventListener('DOMContentLoaded', getTestInfo, false);
+  </script>
+</body>
+
+</html>
