@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Windows Live Spaces - Flash Tutorails Step by Stept</title>
+    <link>http://www.codedefect.com/</link>
+    <language>zh-cn</language>
+    <description>Windows Live Spaces Flash 初级教程信息</description>
+    <item>
+      <title>如何创建一个共享空间</title>
+      <description>描述如何创建一个 Windows Live Spaces</description>
+      <pubDate>Fri, 20 Oct 2006 23:56:59 GMT</pubDate>
+      <author>Belemcheung@hotmail.com (张敏)</author>
+      <guid isPermaLink="true">http://www.codedefect.com/</guid>
+      <link>http://www.codedefect.com/pages/how-to-create-a-space.xml</link>
+      <category>Blog</category>
+    </item>
+  </channel>
+</rss>

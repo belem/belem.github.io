@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="../xsl/default.xsl" ?>
+<b>
+  <e>Belem - Windows Live Spaces Flash 教程</e>
+  <l>http://gb2312.spaces.live.com</l>
+  <e>Belem 教您一步一步学会使用Windows Live Spaces</e>
+  <m>
+    <title>如何更改用户的访问权限</title>
+    <link>how-to-set-permission.xml</link>
+    <source>WindowsLiveSpaces/How_To_Permissions_skin.swf</source>
+    <relatedtitle></relatedtitle>
+    <relatedlink></relatedlink>
+    <description>本教程简要介绍了如何对共享空间设置理想的访问权限.</description>
+    <tag>Options</tag>
+  </m>
+</b>
+

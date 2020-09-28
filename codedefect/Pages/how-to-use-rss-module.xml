@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="../xsl/default.xsl" ?>
+<b>
+  <e>Belem - Windows Live Spaces Flash 教程</e>
+  <l>http://gb2312.spaces.live.com</l>
+  <e>Belem 教您一步一步学会使用Windows Live Spaces</e>
+  <m>
+    <title>学会使用 RSS 模块</title>
+    <link>how-to-use-rss-module.xml</link>
+    <source>WindowsLiveSpaces/How_To_RSSModule_skin.swf</source>
+    <relatedtitle>RSS 聚合模块</relatedtitle>
+    <relatedlink>http://gb2312.spaces.live.com/blog/cns!3CDBA96A871601F6!11006.entry</relatedlink>
+    <description>本教程简要介绍了如何使用 RSS 模块.</description>
+    <tag>RSS</tag>
+  </m>
+</b>

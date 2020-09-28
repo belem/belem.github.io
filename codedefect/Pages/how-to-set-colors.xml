@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="../xsl/default.xsl" ?>
+<b>
+  <e>Belem - Windows Live Spaces Flash 教程</e>
+  <l>http://gb2312.spaces.live.com</l>
+  <e>Belem 教您一步一步学会使用Windows Live Spaces</e>
+  <m>
+    <title>如何配置空间的颜色</title>
+    <link>how-to-set-colors.xml</link>
+    <source>WindowsLiveSpaces/How_To_Colors_skin.swf</source>
+    <relatedtitle>获得颜色值</relatedtitle>
+    <relatedlink>http://lieb.cn/spaces/ColorContrast/ui.aspx</relatedlink>
+    <description>本教程简要介绍了如何更改共享空间的颜色.</description>
+    <tag>Customize</tag>
+  </m>
+</b>
+

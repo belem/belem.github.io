@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="../xsl/default.xsl" ?>
+<b>
+  <e>Belem - Windows Live Spaces Flash 教程</e>
+  <l>http://gb2312.spaces.live.com</l>
+  <e>Belem 教您一步一步学会使用Windows Live Spaces</e>
+  <m>
+    <title>如何添加一个计数器</title>
+    <link>how-to-add-a-counter.xml</link>
+    <source>WindowsLiveSpaces/How_To_AddCounter_skin.swf</source>
+    <relatedtitle>使用计数器</relatedtitle>
+    <relatedlink>http://gb2312.spaces.live.com/Blog/cns!1pj3y6bRc9KnqfIBgeQI_-sA!3766.entry</relatedlink>
+    <description>本教程简要介绍了如何用添加一个计数器.</description>
+    <tag>Powertoy</tag>
+  </m>
+</b>

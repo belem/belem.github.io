@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="../xsl/default.xsl" ?>
+<b>
+  <e>Belem - Windows Live Spaces Flash 教程</e>
+  <l>http://gb2312.spaces.live.com</l>
+  <e>Belem 教您一步一步学会使用Windows Live Spaces</e>
+  <m>
+    <title>如何添加一个置顶 HTML 模块 </title>
+    <link>how-to-add-custom-html-module.xml</link>
+    <source>WindowsLiveSpaces/How_To_AddHTMLModule_skin.swf</source>
+    <relatedtitle>HTML模块完全图解教程</relatedtitle>
+    <relatedlink>http://gb2312.spaces.live.com/Blog/cns!1pj3y6bRc9KnqfIBgeQI_-sA!1564.entry</relatedlink>
+    <description>本教程简要介绍了如何用添加一个置顶HTML模块, 用于放置欢迎图片或者计数器等等.</description>
+    <tag>Powertoy</tag>
+  </m>
+</b>

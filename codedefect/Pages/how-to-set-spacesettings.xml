@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="../xsl/default.xsl" ?>
+<b>
+  <e>Belem - Windows Live Spaces Flash 教程</e>
+  <l>http://gb2312.spaces.live.com</l>
+  <e>Belem 教您一步一步学会使用Windows Live Spaces</e>
+  <m>
+    <title>共享空间基本配置</title>
+    <link>how-to-set-spacesettings.xml</link>
+    <source>WindowsLiveSpaces/How_To_SpaceSettings_skin.swf</source>
+    <relatedtitle></relatedtitle>
+    <relatedlink></relatedlink>
+    <description>本教程简要介绍了如何配置空间的标题, 评论, RSS, 时区, 删除空间等等基本配置信息.</description>
+    <tag>Options</tag>
+  </m>
+</b>
+

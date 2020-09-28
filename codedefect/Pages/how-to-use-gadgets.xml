@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="../xsl/default.xsl" ?>
+<b>
+  <e>Belem - Windows Live Spaces Flash 教程</e>
+  <l>http://gb2312.spaces.live.com</l>
+  <e>Belem 教您一步一步学会使用Windows Live Spaces</e>
+  <m>
+    <title>学会添加和使用 Gatgets</title>
+    <link>how-to-use-gadgets.xml</link>
+    <source>WindowsLiveSpaces/How_To_Gadgets_skin.swf</source>
+    <relatedtitle>第三方小工具支持</relatedtitle>
+    <relatedlink>http://gb2312.spaces.live.com/blog/cns!3CDBA96A871601F6!31559.entry</relatedlink>
+    <description>本教程简要介绍了如何学会添加和使用 Gatgets.</description>
+    <tag>Gadgets</tag>
+  </m>
+</b>

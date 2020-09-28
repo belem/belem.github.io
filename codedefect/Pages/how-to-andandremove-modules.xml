@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="../xsl/default.xsl" ?>
+<b>
+  <e>Belem - Windows Live Spaces Flash 教程</e>
+  <l>http://gb2312.spaces.live.com</l>
+  <e>Belem 教您一步一步学会使用Windows Live Spaces</e>
+  <m>
+    <title>如何增减空间模块</title>
+    <link>how-to-andandremove-modules.xml</link>
+    <source>WindowsLiveSpaces/How_To_Modules_skin.swf</source>
+    <relatedtitle>Windows Live Spaces 更新涉及到的模块部分</relatedtitle>
+    <relatedlink>http://gb2312.spaces.live.com/blog/cns!3CDBA96A871601F6!42577.entry</relatedlink>
+    <description>本教程简要介绍了如何快速删除一个模块或者是添加需要的模块.</description>
+    <tag>Customize</tag>
+  </m>
+</b>
+

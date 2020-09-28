@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="../xsl/default.xsl" ?>
+<b>
+  <e>Belem - Windows Live Spaces Flash 教程</e>
+  <l>http://gb2312.spaces.live.com</l>
+  <e>Belem教您一步一步学会使用Windows Live Spaces</e>
+  <m>
+    <title>如何创建一个共享空间</title>
+    <link>how-to-create-a-space.xml</link>
+    <source>WindowsLiveSpaces/Overview_Create_Space_skin.swf</source>
+    <relatedtitle></relatedtitle>
+    <relatedlink></relatedlink>
+    <description>本教程介绍了如何从零开始创建一个 Windows Live 共享空间.</description>
+    <tag>SetUp</tag>
+  </m>
+</b>
+
