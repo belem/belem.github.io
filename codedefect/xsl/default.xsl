@@ -10,7 +10,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
 <meta http-equiv="Content-Language" content="utf-8" />
 <meta name="robots" content="all" />
-<meta name="author" content="Belem, BelemCheung@hotmail.com" />
+<meta name="author" content="Belem, hi@live.com" />
 <meta name="Copyright" content="Copyright (c) 2006 Belem" />
 <meta name="description" content="Windows Live Spaces, Flash Tutorials, By Belem" />
 <meta name="keywords" content="Belem, Flash, Tutorials, Windows Live Spaces, Tips" />
@@ -139,8 +139,8 @@
 		</div>			
 
 		<div id="footer">
-			<div id="footer1">© 2006 <a href="mailto:belemcheung@hotmail.com" title="联系 Belem" rel="external">BELEM</a> 保留所有权利 <p/></div>
-			<div id="footer2"><a href="../" title="回到首页" >首页</a> | <a href="../pages/rss/rss.xml" title="获得RSS更新信息" >RSS</a> | <a href="../about" title="关于我们" >关于我们</a> | <a href="http://gb2312.spaces.live.com" title="访问 Belem 的共享空间" >Belem's Space</a> | <a href="http://lieb.cn" title="Windows Live Spaces 应用工具">Lieb.cn</a></div>
+			<div id="footer1">© 2006 <a href="mailto:hi@live.com" title="联系 Belem" rel="external">BELEM</a> 保留所有权利 <p/></div>
+			<div id="footer2"><a href="../" title="回到首页" >首页</a> | <a href="../pages/rss/rss.xml" title="获得RSS更新信息" >RSS</a> | <a href="../about" title="关于我们" >关于我们</a> | <a href="http://gb2312.spaces.live.com" title="访问 Belem 的共享空间" >Belem's Space</a> | <a href="#" title="Windows Live Spaces 应用工具">Lieb.cn</a></div>
 		</div>	
 
 </div>
