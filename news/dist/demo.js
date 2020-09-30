@@ -29452,7 +29452,7 @@ typeof navigator === "object" && (function () {
 	    var player = new Plyr(selector, {
 	      debug: true,
 	      title: 'News',
-	      iconUrl: './dist/demo.svg',
+	      iconUrl: 'demo.svg',
 	      keyboard: {
 	        global: true
 	      },
