@@ -31,6 +31,9 @@
       let webmarkenvironment = new WebMarkEnvironment();
       let result = webmarkenvironment.result();
       console.log(result);
+      let canvas = document.createElement('canvas');
+      let gl = canvas.getContext('webgl');
+
       info.innerHTML =
         `
         == Hardware ==
@@ -50,11 +53,13 @@
         <br>screenpixeldepth: ${result.hardware.screenpixeldepth}
         <br>devicepixelratio: ${result.hardware.devicepixelratio}
         <br>
+        <br>
         == Software ==
         <br>os: ${result.software.os}
         <br>osversion: ${result.software.osversion}
         <br>platform: ${result.software.platform}
         <br>timezone: ${result.software.timezone}
+        <br>
         <br>
         == Browser ==
         <br>name: ${result.browser.name}
@@ -65,7 +70,10 @@
         <br>engineversion: ${result.browser.engineversion}
         <br>useragent: ${result.browser.useragent}
         <br>
- 
+        <br>
+        == WebGL ==
+        <br>
+        gl.MAX_TEXTURE_SIZE: ${gl.getParameter(gl.MAX_TEXTURE_SIZE)}
         `
     }
     document.addEventListener('DOMContentLoaded', getTestInfo, false);
