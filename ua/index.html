@@ -105,7 +105,7 @@
         info.innerHTML = f
 
         if(result.browser.name.toLowerCase().indexOf('chrome') > -1) {
-          fetch('http://omahaproxy.appspot.com/deps.json?version=' + result.browser.version)
+          fetch('https://omahaproxy.appspot.com/deps.json?version=' + result.browser.version)
           .then(function(response) {
             return response.json();
           })
