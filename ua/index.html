@@ -9,6 +9,26 @@
   <meta name='description' content='UA' />
   <meta name='HandheldFriendly' content='True' />
   <meta name='viewport' content='width=device-width, initial-scale=0.8' />
+  <style>
+    body {
+      font-family: arial,sans-serif;
+      font-size: 0.9rem;
+    }
+    #info {
+      font-family: monospace;
+      font-size: 12px;
+    }
+    #lnk {
+      margin: 1rem auto;
+      text-align: center;
+    }
+    #lnk a:link, #lnk a:visited, #lnk a:active {
+      color: #0071c5;
+    }
+    #lnk a:hover {
+      color: #00aeef;
+    }
+  </style>
 </head>
 
 <body>
@@ -17,6 +37,13 @@
   <article>
     <section id='info' class="section">
     </section>
+    <div id='lnk'>
+      Chrome <a href='https://chromiumdash.appspot.com/schedule'>Schedule</a>
+      <a href='https://chromiumdash.appspot.com/releases?platform=Windows'>Releases</a>
+      <a href='https://www.chromestatus.com/features'>Features</a> | 
+      <a href='http://omahaproxy.appspot.com/' title='To track current Chrome releases and release history'>OmahaProxy CSV Viewer</a> | 
+      <a href='https://source.chromium.org/chromium/chromium/src'>Chromium Code Search</a>
+    </div>
   </article>
   <aside></aside>
   <footer class="footer" style="margin-top: 1rem;">
@@ -33,8 +60,7 @@
       console.log(result);
       let canvas = document.createElement('canvas');
       let gl = canvas.getContext('webgl');
-
-      info.innerHTML =
+      let f =
         `
         == Hardware ==
         <br>devicevendor: ${result.hardware.devicevendor}
@@ -69,12 +95,43 @@
         <br>enginename: ${result.browser.enginename}
         <br>engineversion: ${result.browser.engineversion}
         <br>useragent: ${result.browser.useragent}
-        <br>
+        <div id='omahaproxy'></div>
         <br>
         == WebGL ==
         <br>
         gl.MAX_TEXTURE_SIZE: ${gl.getParameter(gl.MAX_TEXTURE_SIZE)}
+        <br><div id='links'></div>
         `
+        info.innerHTML = f
+
+        if(result.browser.name.toLowerCase().indexOf('chrome') > -1) {
+          fetch('http://omahaproxy.appspot.com/deps.json?version=' + result.browser.version)
+          .then(function(response) {
+            return response.json();
+          })
+          .then(function(myJson) {
+            let v8_version = myJson.v8_version;
+            let v8_commit = myJson.v8_commit;
+            let v8_position = myJson.v8_position;
+            let chromium_base_position = myJson.chromium_base_position;
+            let chromium_branch = myJson.chromium_branch;
+            let chromium_base_commit = myJson.chromium_base_commit;
+            let chromium_commit = myJson.chromium_commit;
+            let skia_commit = myJson.skia_commit;
+            let omahaproxy = `
+            v8_version: ${v8_version}
+            <br>v8_commit: ${v8_commit}  
+            <br>v8_position: ${v8_position}
+            <br>chromium_base_position: ${chromium_base_position}
+            <br>chromium_branch: ${chromium_branch}
+            <br>chromium_base_commit: ${chromium_base_commit}
+            <br>chromium_commit: ${chromium_commit}
+            <br>skia_commit: ${skia_commit}
+            <br>
+            `
+            document.querySelector('#omahaproxy').innerHTML = omahaproxy
+          });
+        }
     }
     document.addEventListener('DOMContentLoaded', getTestInfo, false);
   </script>
