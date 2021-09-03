@@ -26,7 +26,7 @@ const show = () => {
                 <td class="n tf">${e.food_by_feed}</td>
                 <td>${e.water_count}</td>
                 <td class="n tf">${e.water_reminder}</td>
-                <td class="p tf">${e.water_request}</td>
+                <td>${e.water_request}</td>
                 <td class="p tf">${e.sleep_sound_asleep}</td>
                 <td>${e.sleep_time}</td>
                 <td class="n tf">${e.sleep_cry_in_sleep}</td>
