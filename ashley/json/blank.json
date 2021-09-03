@@ -1,0 +1,30 @@
+[
+    {
+      "date": "",
+      "emotion_happy": 0,
+      "emotion_mood_swings": 0,
+      "emotion_anxious": 1,
+      "health_normal": 1,
+      "health_cough": 0,
+      "health_runny_nose": 0, 
+      "health_fever": 0, 
+      "health_other": "",
+      "food_good_appetite_finished": 0,
+      "food_anorexia_not_finished": 1,
+      "food_picky": 0,
+      "food_learn_by_self": 1, 
+      "food_by_feed": 1,
+      "water_count": 5,
+      "water_reminder": 0,
+      "water_request": 0,
+      "sleep_sound_asleep": 1,
+      "sleep_time": 1,
+      "sleep_cry_in_sleep": 0,
+      "sleep_refuse": 0,
+      "excretion_pee_count": 0,
+      "excretion_poopoo_count": 0,
+      "excretion_normal": 1,
+      "excretion_awareness_expression": 0
+     },
+  ]
+  
