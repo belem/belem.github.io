@@ -10,31 +10,31 @@ const show = () => {
             function (e) {
                 tr = "<tr>" + 
                 `
-                <th class="pb">${e.date}</th>
-                <td class="p tf">${e.emotion_happy}</td>
-                <td class="n tf">${e.emotion_mood_swings}</td>
-                <td class="n tf">${e.emotion_anxious}</td>
-                <td class="p tf">${e.health_normal}</td>
-                <td class="n tf">${e.health_cough}</td>
-                <td class="n tf">${e.health_runny_nose}</td> 
-                <td class="n tf">${e.health_fever}</td> 
-                <td>${e.health_other}</td>
-                <td class="p tf">${e.food_good_appetite_finished}</td>
-                <td class="n tf">${e.food_anorexia_not_finished}</td>
-                <td class="n tf">${e.food_picky}</td>
-                <td class="p tf">${e.food_learn_by_self}</td> 
-                <td class="n tf">${e.food_by_feed}</td>
-                <td>${e.water_count}</td>
-                <td class="n tf">${e.water_reminder}</td>
-                <td>${e.water_request}</td>
-                <td class="p tf">${e.sleep_sound_asleep}</td>
-                <td>${e.sleep_time}</td>
-                <td class="n tf">${e.sleep_cry_in_sleep}</td>
-                <td class="n tf">${e.sleep_refuse}</td>
-                <td>${e.excretion_pee_count}</td>
-                <td>${e.excretion_poopoo_count}</td>
-                <td class="p tf">${e.excretion_normal}</td>
-                <td class="p tf">${e.excretion_awareness_expression}</td>
+                <th class="pb">${e.d}</th>
+                <td class="p tf">${e.e1}</td>
+                <td class="n tf">${e.e2}</td>
+                <td class="n tf">${e.e3}</td>
+                <td class="p tf">${e.h1}</td>
+                <td class="n tf">${e.h2}</td>
+                <td class="n tf">${e.h3}</td> 
+                <td class="n tf">${e.h4}</td> 
+                <td>${e.h5}</td>
+                <td class="p tf">${e.f1}</td>
+                <td class="n tf">${e.f2}</td>
+                <td class="n tf">${e.f3}</td>
+                <td class="p tf">${e.f4}</td> 
+                <td class="n tf">${e.f5}</td>
+                <td>${e.w1}</td>
+                <td class="n tf">${e.w2}</td>
+                <td>${e.w3}</td>
+                <td class="p tf">${e.s1}</td>
+                <td>${e.s2}</td>
+                <td class="n tf">${e.s3}</td>
+                <td class="n tf">${e.s4}</td>
+                <td>${e.ex1}</td>
+                <td>${e.ex2}</td>
+                <td class="p tf">${e.ex3}</td>
+                <td class="p tf">${e.ex4}</td>
                 ` 
                 + "</tr>"
                 a.innerHTML += tr;
