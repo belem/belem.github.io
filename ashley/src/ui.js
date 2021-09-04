@@ -20,7 +20,6 @@ const show = () => {
                 <td class="n tf">${e.h4}</td> 
                 <td>${e.h5}</td>
                 <td class="p tf">${e.f1}</td>
-                <td class="n tf">${e.f2}</td>
                 <td class="n tf">${e.f3}</td>
                 <td class="p tf">${e.f4}</td> 
                 <td class="n tf">${e.f5}</td>
