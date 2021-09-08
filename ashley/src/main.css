@@ -19,6 +19,7 @@ body {
   table {
     border-collapse: collapse;
     border: 0px;
+    background-color: transparent;
   }
   th,
   td {
@@ -46,11 +47,11 @@ body {
   }
 
   .red {
-      background-color: #E91E63;
+      background-color: #dE685E;
       color: #fff;
   }
 
   .green {
-      background-color: #4CAF50;
+      background-color: #92bCa6;
       color: #fff;
   }
