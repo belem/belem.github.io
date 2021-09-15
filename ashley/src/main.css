@@ -20,12 +20,17 @@ body {
     border-collapse: collapse;
     border: 0px;
     background-color: transparent;
+    margin: 0 1rem;
   }
   th,
   td {
     border: 1px solid rgba(0, 0, 0, 0.05);
     font-weight: 200;
     text-align: center;
+  }
+  td, th {
+    width: 10vw;
+    white-space: nowrap;
   }
   thead th {
     position: sticky;

@@ -14,26 +14,12 @@ const show = () => {
                 <td class="p tf">${e.e1}</td>
                 <td class="n tf">${e.e2}</td>
                 <td class="n tf">${e.e3}</td>
-                <td class="p tf">${e.h1}</td>
-                <td class="n tf">${e.h2}</td>
-                <td class="n tf">${e.h3}</td> 
-                <td class="n tf">${e.h4}</td> 
-                <td>${e.h5}</td>
                 <td class="p tf">${e.f1}</td>
                 <td class="n tf">${e.f3}</td>
                 <td class="p tf">${e.f4}</td> 
                 <td class="n tf">${e.f5}</td>
                 <td>${e.w1}</td>
-                <td class="n tf">${e.w2}</td>
-                <td>${e.w3}</td>
-                <td class="p tf">${e.s1}</td>
                 <td>${e.s2}</td>
-                <td class="n tf">${e.s3}</td>
-                <td class="n tf">${e.s4}</td>
-                <td>${e.ex1}</td>
-                <td>${e.ex2}</td>
-                <td class="p tf">${e.ex3}</td>
-                <td class="p tf">${e.ex4}</td>
                 ` 
                 + "</tr>"
                 a.innerHTML += tr;
