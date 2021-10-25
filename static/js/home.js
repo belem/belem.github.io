@@ -3,9 +3,10 @@ const main = document.getElementById('main');
 let parts = [];
 
 let images = [
-  "https://images.unsplash.com/photo-1447758501994-89bb4bae35d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80",
-  "https://images.unsplash.com/photo-1540161148466-c5a4239532c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80",
-  "https://images.unsplash.com/photo-1578495959700-a617c3600026?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80"
+  "../static/img/home/bg-dg.jpg",
+  "../static/img/home/bg-cc.jpg",
+  "../static/img/home/bg-bj.jpg",
+  "../static/img/home/bg-sh.jpg",
 ];
 let current = 0;
 let playing = false;
