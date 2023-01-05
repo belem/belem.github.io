@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8' />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+  <title>isX86()</title>
+  <meta name='description' content='UA' />
+  <meta name='HandheldFriendly' content='True' />
+  <meta name='viewport' content='width=device-width, initial-scale=0.8' />
+</head>
+
+<body>
+  <header>isX86()</header>
+  <article>
+    <pre>
+      const isX86 = () => {
+        const f = new Float32Array(1);
+        const u8 = new Uint8Array(f.buffer);
+        f[0] = Infinity;
+        f[0] = f[0] - f[0];
+        return u8[3] == 255;
+      }
+    </pre>
+    <div></div>
+  </article>
+  <script>
+    const isX86 = () => {
+      const div = document.querySelector('article div');
+      const f = new Float32Array(1);
+      const u8 = new Uint8Array(f.buffer);
+      f[0] = Infinity;
+      f[0] = f[0] - f[0];
+      let r = u8[3] == 255;
+      div.innerHTML = `
+        f: ${f}<br>
+        f.buffer: ${f.buffer}<br>
+        u8: ${u8}<br>
+        f[0]: ${f[0]}<br>
+        u8[3]: ${u8[3]}<br>
+        isX86(): ${r}
+      `;
+      // return u8[3] == 255;
+    }
+
+    document.addEventListener('DOMContentLoaded', isX86, false);
+  </script>
+</body>
+
+</html>
