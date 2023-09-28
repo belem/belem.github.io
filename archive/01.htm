@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>00001111</title>
+</head>
+
+<body>
+
+  <h3>00001111</h3>
+
+  <label for="iB1">输入要转换的文字:</label><br><br>
+  <textarea rows="5" cols="33" id="iB1" name="iB1">生日快乐</textarea><br><br>
+
+  <label for="iB2">输入要转换的二进制数字:</label><br><br>
+  <textarea rows="5" cols="33" id="iB2"
+    name="iB2">1001000 1100001 1110000 1110000 1111001 00100000 1000010 1101001 1110010 1110100 1101000 1100100 1100001 1111001</textarea><br><br>
+
+  <button id="button1" onclick="b1()">文字转二进制</button>
+  <button id="button2" onclick="b2()">二进制转文字</button>
+
+  <h3>结果:</h3>
+
+  <div id="r">
+
+  </div>
+
+  <script>
+    function b1() {
+      let t = document.querySelector('#iB1').value;
+      let r = document.querySelector('#r');
+      r.innerHTML = [...t].map(char => char.charCodeAt(0).toString(2)).join(' ');
+
+    }
+
+    function b2() {
+      let t = document.querySelector('#iB2').value;
+      let r = document.querySelector('#r');
+      r.innerHTML = t.split(' ').map(b => String.fromCharCode(parseInt(b, 2))).join('');
+    }
+  </script>
+</body>
+
+</html>
